@@ -1837,6 +1837,11 @@ input, select, textarea {
       }
 
       .gallery .gallery-meta { padding: 18px }
+      .gallery .gallery-meta a {
+        font: 12px/18px 'opensans-light', sans-serif;
+        color: #c6c7c7;
+        margin-bottom: 0;
+      }
       .gallery .gallery-meta h5 {
         font: 14px/21px 'opensans-bold', sans-serif;
         color: #fff;
@@ -1851,7 +1856,7 @@ input, select, textarea {
       .gallery .image:hover .overlay {
         opacity: 1;
         -moz-opacity: 1;
-        filter:alpha(opacity=100);
+        filter:alpha(opacity=0);
       }
       .gallery .image:hover .link-icon {
          opacity: 1;
